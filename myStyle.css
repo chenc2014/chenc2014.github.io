@@ -1,13 +1,14 @@
 .buttons c {
+  color: green;
+  background-color: khaki;
+  text-decoration: none;
   font-size: 14px;
-  font-color: green;
-
-
 }
 .buttons c:hover {
   cursor:pointer; 
   font-size: 14px;
-  font-color: green;
-
+  color: green;
+  background-color: khaki;
+  text-decoration: underline;
 }
 
