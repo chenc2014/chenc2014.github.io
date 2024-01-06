@@ -13,11 +13,11 @@
             isOn = !isOn;
             if (isOn == true) {
                span.innerHTML = str;
-               btn.innerHTML = "hide";
+               btn.innerHTML = "收缩";
             } else {
                //收缩
                span.innerHTML = str.substring(0, 300) + "...";
-               btn.innerHTML = "show";
+               btn.innerHTML = "展开";
             }
          }
       }
