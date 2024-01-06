@@ -1,11 +1,11 @@
 .buttons a {
   font-size: 14px;
-  display: flex;
+
 
 }
 .buttons a:hover {
   cursor:pointer; 
   font-size: 14px;
-  display: flex;
+
 }
 
