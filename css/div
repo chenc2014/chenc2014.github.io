@@ -1,0 +1,16 @@
+
+  div {
+         width: 1200px;
+         margin: 40px auto;
+         border: 2px solid #f2f2f2;
+         padding: 20px;
+      }
+      .title{
+         text-align: center;
+         font-size: 24px;
+         
+      }
+      p{
+         text-indent: 2em;
+         text-align: justify;
+      }
