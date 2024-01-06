@@ -1,14 +1,9 @@
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
-<script>
-jQuery(function(){
-    jQuery('.showSingle').click(function(){
-       var target = $(this).attr('target');
-        $('#div'+target).toggle('.hide');
-    });
-});
-</script>
+<link rel="stylesheet" type="text/css" href="myStyle.css"> <script type="text/javascript" src="myScript.js"></script>
+
+
  <style>
   
   body{font-family:perpetua, perpetua;}
@@ -75,17 +70,20 @@ border="0" src="IMG2.jpg" width="200" height="160"></font></h1>
 <ol>
  <li>
 &quot;The long-term health effects of early-life malaria exposure: Evidence from Taiwan's malaria eradication in the 1950s,&quot;
+<div class="main_div">
 <div class="buttons">
-  <a class="showSingle" target="1">Div 1</a>
-  <a class="showSingle" target="2">Div 2</a>
-  <a class="showSingle" target="3">Div 3</a>
-  <a class="showSingle" target="4">Div 4</a>
+<a href="#" onclick="divVisibility('Div1');">Div1</a> | 
+<a href="#" onclick="divVisibility('Div2');">Div2</a> | 
+<a href="#" onclick="divVisibility('Div3');">Div3</a> | 
+<a href="#" onclick="divVisibility('Div4');">Div4</a>
 </div>
-
-<div id="div1" class="targetDiv">Lorum Ipsum1</div>
-<div id="div2" class="targetDiv">Lorum Ipsum2</div>
-<div id="div3" class="targetDiv">Lorum Ipsum3</div>
-<div id="div4" class="targetDiv">Lorum Ipsum4</div>
+<div class="inner_div">
+<div id="Div1">I'm Div One</div>
+<div id="Div2" style="display: none;">I'm Div Two</div>
+<div id="Div3" style="display: none;">I'm Div Three</div>
+<div id="Div4" style="display: none;">I'm Div Four</div>
+</div>
+</div>
  <br>Cheng Chen, Shin-Yi Chou, Hsien-Ming Lien, and Jin-Tan Liu, <em>American Journal of Health Economics</em>, forthcoming.
 <a href="https://www.journals.uchicago.edu/doi/10.1086/724216">[Published version]</a> 
 
