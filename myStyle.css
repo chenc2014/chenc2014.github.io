@@ -1,10 +1,10 @@
-.buttons a {
+.buttons c {
   font-size: 14px;
   font-color: green;
 
 
 }
-.buttons a:hover {
+.buttons c:hover {
   cursor:pointer; 
   font-size: 14px;
   font-color: green;
