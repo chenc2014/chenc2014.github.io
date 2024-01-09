@@ -1,7 +1,7 @@
 .buttons c {
   color: green;
   background-color: none;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 14px;
 }
 .buttons c:hover {
@@ -12,6 +12,3 @@
   text-decoration: underline;
 }
 
- .chinese {
-  font-family: BiauKai, Source Han Sans, FangSong, STXihei, "KaiTi", Cursive;
-}
